@@ -1,4 +1,4 @@
-# ArtMatch 👩‍🎨
+# Image Generation 👩‍🎨
 
 An AI-powered image generation web application that creates artwork based on textual descriptions of famous paintings. Built with Node.js, Express, and OpenAI's DALL-E API.
 
