@@ -1,0 +1,14 @@
+FROM node:24.12.0-alpine3.22
+
+WORKDIR /app
+
+# Copy only what is needed
+COPY package*.json ./
+RUN npm install --omit=dev
+
+COPY . .
+
+EXPOSE 3000
+
+# Run without nodemon in prod (basically no dev)
+CMD ["node", "server.js"]

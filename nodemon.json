@@ -1,0 +1,7 @@
+{
+  "watch": ["server.js", "views", "public"],
+  "ext": "js, ejs, css, json",
+  "ignore": ["node_modules"],
+  "delay": 300,
+  "legacyWatch": true
+}

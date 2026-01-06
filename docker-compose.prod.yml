@@ -1,0 +1,10 @@
+services:
+  app:
+    image: parantaps7/image_gen:1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
