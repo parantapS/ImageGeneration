@@ -1,4 +1,4 @@
-# Sue the official Node.js image as the base image
+# Use the official Node.js image as the base image
 FROM node:24.12.0-alpine3.22
 
 # Set the working directory inside the container
